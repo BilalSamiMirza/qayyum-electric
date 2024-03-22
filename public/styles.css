@@ -1,0 +1,484 @@
+/* body{
+    min-width: 428px;
+} */
+/* .services-heading{
+    background-image: url('images/mainheading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    padding-bottom: 70px;
+     */
+    
+/* } */
+.services-main{
+  background-image: url('images/mainheading.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  
+}
+.logoimg {
+  
+  /* left: 15px; */
+  
+}
+.nav-item{
+  /* text-decoration: underline; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container img{
+  /* width: 70px; */
+  /* height: 70px; */
+  width: 70px;
+height: 70px;
+margin-left: 60px;
+  background-size: contain;
+}
+.services-head{
+  color: rgba(255, 255, 255, 0.783);
+  font-size: 40px;
+  text-align: start;
+  margin-left: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+.services-head a{
+color: rgba(255, 255, 255, 0.783);
+font-size: 40px;
+text-align: start;
+text-decoration: none;
+margin-top: 50px;
+
+}
+
+@media (max-width: 768px) {
+  .nav{
+    position:relative;
+    z-index: 0;
+     /* width: 410px;  */
+     z-index: 1;
+     color: #0000009b;
+    
+     top: 0;
+     right:0 ;
+     left: 0;
+  }
+  .logoimg{
+    width: 50px;
+    height: 50px;
+  }
+  .mainhead{
+    font-size: 15px;
+  }
+  .main-had{
+    display: none;
+  }
+}
+.nav{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    right:0 ;
+    left: 0;
+  }
+  .navbar {
+      background-color: rgba(0, 0, 0, 0.516);
+      color: rgb(255, 255, 255);
+     
+  }
+  .logoimg {
+  
+    /* left: 15px; */
+    margin-left: 60px;
+    background-size: contain;
+}
+.nav-item{
+    /* text-decoration: underline; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    
+    
+}
+.nav-link{
+    font-size: 15px;
+    /* text-decoration: underline; */
+    margin-right: 30px;
+}
+.navbar-nav{
+    margin: auto;
+    /* margin-left: 70px; */
+
+}
+@media (max-width: 576px) {
+    .nav{
+      position:relative;
+      z-index: 0;
+       width: 100%;
+       margin-top: 0px; 
+    }
+    .services-heading{
+        margin-top: 0px; 
+    }
+}
+.headone{
+    font-size: 30px;
+    gap: 0px;
+    font-style: solid;
+    font-weight: 400;
+    font-stretch:100% ;
+    letter-spacing: -1px;
+
+}
+.paraone{
+    font-size: 18px;
+
+}
+.imp{
+    display: flex;
+    flex-direction:column;
+    /* justify-content:flex-end; */
+    font-family: sans-serif;
+    align-items:start;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    
+}
+.secman{
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 10px;
+    width: 100%;
+    height: 550px;
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/layout01-img05.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+ }
+ @media (max-width: 992px) {
+    .secimg {
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+}
+ .divimp{
+    margin-top: 290px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: -100px;
+    margin-right: 0px;
+  
+ }
+
+.ours{
+    font-size: 40px;
+    /* background-color: #c600003e; */
+    color: rgba(255, 255, 255, 0.783);
+    /* text-align: start; */
+    padding: 20px;
+    
+    
+}
+.paragh{
+    font-size: 20px;
+}
+.qll{
+    font-size: 20px;
+}
+.callus{
+    font-size: 20px;
+}
+.dip{
+    color:rgb(0, 191, 255) ;
+    font-size: 50px;
+}
+
+ .box {
+  background-size: contain;
+  background-position:center;
+  background-image: url('images/eerr.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  /* position: relative; */
+  overflow: hidden;
+  transition: transform 0.3s;
+  /* margin-top: 30px; */
+  padding: 70px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 10px;
+ 
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.17);
+}
+
+.box .overlaymore {
+  /* position: absolute; */
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #0c34ac6c; */
+   display: flex;
+   flex-wrap: nowrap;
+  flex-direction:column;
+  /* justify-content: space-around;  */
+  align-items: center; 
+  /* padding: 0 1rem; */
+  padding: 10px 10px ;
+  overflow: hidden;
+  border-radius: 5px;
+
+  /* text-align: start; */
+  transition: background-color 0.3s, transform 0.3s;
+  margin: -20px;
+  
+  
+}
+.overlaymore-content{
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+
+.box:hover .overlaymore {
+  background-color: #0c34ac6c;
+  transform: translateY(0);
+  
+  
+}
+
+.box .overlaymore-content {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.box:hover .overlaymore-content{
+  opacity: 1;
+}
+
+.box a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 0.8rem;
+  /* margin-bottom: 20px; */
+  /* display: inline-block; */
+  transition: color 0.3s;
+}
+
+.box a:hover {
+  color: #000000;
+}
+.container-boxes{
+  margin-top: 60px;
+  overflow: hidden;
+
+}
+
+.er{
+  background-image: url('images/eerr.png');;
+  background-size: cover;
+}
+.pu{
+  background-image: url('images/pu.png');
+  overflow: hidden;
+  background-size: cover;
+}
+.lu{
+  background-image: url('images/iof.png');
+  background-size: cover;
+}
+.sp{
+  background-image: url('images/breaker.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.iof{
+  background-image: url('images/if.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ol{
+  background-image: url('images/wirebreaker.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h4 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  h4 {
+    font-size: 20px;
+    /* margin-right: 70px; */
+    text-align: left;
+    /* padding-right: 30px; */
+  }
+}
+.os{
+    text-align: center;
+    color: #01010179;
+    text-decoration: none;
+    
+  }
+  .oc a:hover{
+    text-decoration: underline;
+  }
+  .os a{
+    color: #000000;
+    text-decoration: none;
+  
+  }
+
+  .about-main{
+    background-image: url('images/mainheading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+.about-head{
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 40px;
+    text-align: start;
+    margin-left: 50px;
+    height: 50px;
+    margin-top: 80px;
+}
+.about-head a{
+  color: rgba(255, 255, 255, 0.783);
+  font-size: 40px;
+  text-align: start;
+  text-decoration: none;
+  margin-top: 50px;
+  
+}
+
+
+
+/* //////////////////////////third services page//////////////////////////////// */
+
+
+
+.head-on{
+    font-size: 30px;
+    gap: 0px;
+    font-style: solid;
+    font-weight: 400; 
+    font-stretch:100% ; 
+    letter-spacing: -1px;
+
+}
+.paraone{
+    font-size: 18px;
+
+}
+.im-port{
+    display: flex;
+    /* flex-direction:column; */
+    /* justify-content:flex-end; */
+    font-family: sans-serif;
+    align-items:start;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    font-size: 15px;
+
+
+    
+}
+/* .second-man{
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/layout01-img06.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+ }
+ @media (max-width: 752px) {
+    .second-man {
+        background-size: cover;
+        background-position: center; */
+        /* padding: 20px; */
+    /* } */
+/* } */
+
+.second-man {
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/layout01-img06.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+/* For Mobile Devices */
+
+
+.div-all{
+    margin-top: 40px;
+
+}
+.ov-er{
+    color: #0c33ac;
+    text-align: center;
+}
+.head-on{
+    font-size: 35px;
+    text-align: start;
+}
+/* /////////////////////link pages//////////////////////////////////////////// */
+
+.containimgg{
+  /* background-image: url('images/.jpeg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+
+}
+
+.para-er{
+  overflow: hidden;
+  
+}

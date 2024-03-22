@@ -1,0 +1,718 @@
+body{
+    /* min-width: 420px; */
+}
+
+  .nav{
+    display: flex;
+    
+     align-items: center;
+      justify-content: center; 
+   position: fixed;
+   z-index: 2;
+   width: 100%;
+   top: 0;
+   right:0 ;
+   left: 0;
+ }
+  .navbar {
+      background-color: rgba(0, 0, 0, 0.68);
+      color: rgb(255, 255, 255);
+     
+  }
+  
+  .logo-container img{
+    /* width: 70px; */
+    /* height: 70px; */
+    width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  }
+  
+  .logoimg {
+  
+    /* left: 15px; */
+    margin-left: 60px;
+    background-size: contain;
+}
+.nav-item{
+    /* text-decoration: underline; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    
+    
+}
+@media (max-width: 768px) {
+  .nav{
+    position:relative;
+    z-index: 0;
+     width: 410px; 
+     z-index: 1;
+     color: #0000009b;
+    
+     top: 0;
+     right:0 ;
+     left: 0;
+  }
+  .main-had{
+    display: none;
+  }
+}
+.nav-link{
+    font-size: 15px;
+    /* text-decoration: underline; */
+    margin-right: 30px;
+    
+}
+.navbar-nav{
+    margin: auto;
+    /* margin-left: 70px; */
+
+}
+@media (max-width: 576px) {
+    .nav{
+      position:relative;
+      z-index: 0;
+       width: 100%; 
+    }
+}
+.about-main{
+    background-image: url('images/mainheading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 80px; */
+    /* margin-top: 85px; */
+    height: 180px;
+    
+}
+.about-head{
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 40px;
+    text-align: start;
+    margin-top: 70px;
+    margin-left: 45px;
+}
+
+
+
+.headon{
+    font-size: 30px;
+    gap: 0px;
+    font-style: solid;
+    font-weight: 400; 
+    font-stretch:100% ; 
+    letter-spacing: -1px;
+
+}
+.nav-link{
+  /* text-decoration: underline; */
+  /* text-align: center; */
+}
+.paraone{
+    font-size: 18px;
+
+}
+.import{
+    display: flex;
+    flex-direction:column;
+    /* justify-content:flex-end; */
+    font-family: sans-serif;
+    align-items:start;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+    
+}
+.secondman{
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/layout01-img03.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+ }
+ @media (max-width: 992px) {
+    .secondimg {
+        background-size: cover;
+        background-position: center;
+        /* padding: 20px; */
+    }
+}
+.div-imp {
+    margin-top: 290px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 280px;
+    margin-right: 0px;
+  
+    
+}
+
+@media (max-width: 1200px) {
+    .div-imp {
+        /* margin-left: 20px; */
+        /* margin-top: 20px; */
+        justify-content: end;
+        align-items: end;
+        /* height: 200px; */
+        /* width: 300px; */
+        /* position: fixed; */
+    }
+}
+
+@media (max-width: 768px) {
+    .div-imp {
+        /* margin-top: 20px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.p-one{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.p-two{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.over{
+color: #0c33ac;
+}
+.all-div{
+    margin-top: 40px;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .manimg {
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+}
+
+.manimg {
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/layout01-img03.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+ }
+ .secman{
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/layout01-img03.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+ }
+ @media (max-width: 992px) {
+    .secimg {
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+}
+ .divimp{
+    margin-top: 290px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: -100px;
+    margin-right: 0px;
+  
+ }
+ .abt{
+    color: #0c33ac;
+    font-weight: 600;
+    font-size: 20px;
+    
+
+}
+.headone{
+    font-size: 30px;
+    gap: 0px;
+    font-style: solid;
+    font-weight: 400;
+    font-stretch:100% ;
+    letter-spacing: -1px;
+
+}
+.paraone{
+    font-size: 18px;
+
+}
+.imp{
+    display: flex;
+    flex-direction:column;
+    /* justify-content:flex-end; */
+    font-family: sans-serif;
+    align-items:start;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+    
+}
+.full-div{
+    margin-top: 50px;
+}
+
+.about-main {
+    background-image: url('images/mainheading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.about-head {
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 40px;
+    text-align: start;
+}
+
+.headon {
+    font-size: 30px;
+    gap: 0px;
+    font-style: solid;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: -1px;
+}
+
+.paraone {
+    font-size: 18px;
+}
+
+.import {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.secondman, .manimg {
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.div-imp, .divimp {
+    margin-top: 290px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 0px;
+}
+
+.abt {
+    color: #0c33ac;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.headone {
+    font-size: 30px;
+    gap: 0px;
+    font-style: solid;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: -1px;
+}
+
+.paraone {
+    font-size: 18px;
+}
+
+.imp {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    margin-left: 5px;
+}
+
+.full-div {
+    margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+    .secondman, .manimg, .secman {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-imp, .divimp {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.back{
+    overflow: hidden;
+    padding-top: 80px;
+}
+.abt-img{
+    /* background-image: url('https://media.istockphoto.com/id/1133564546/photo/connection-of-the-power-supply-system-of-electricity.jpg?s=612x612&w=0&k=20&c=CaWd2f3cqOwtvZMKGZFI0Ev12Eo5r5glhZ1FiHwXqB4=');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; */
+    /* padding: 50px; */
+    /* display: flex;
+    align-items: start;
+    justify-content: start; */
+    /* margin-top: 20px; */
+    /* width: 100%;
+    height: 100vh; */
+}
+@media (max-width: 768px) {
+    .abt-img {
+        background-size: contain;
+        background-position: center;
+        /* padding: 20px; */
+        /* height: 100vh; */
+    }
+}
+.intro-div{
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////gallery css////////////////////////////////////////////// */
+
+
+
+
+
+/* 
+.containeron .col-box {
+    position: relative;
+    overflow: hidden;
+  }
+  .containeron .icon-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 50px;
+    height: 50px;
+    color: white;
+    
+  }
+  .containeron .col-box:hover .icon-container {
+    opacity: 1;
+  }
+  .containeron .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .containeron .col-box:hover .hover-overlay {
+    opacity: 1;
+  }
+  .containeron .eye-icon {
+    color: white;
+    font-size: 48px;
+  }
+  .containeron img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .ourproject{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* text-decoration: underline; */
+    /* margin: 20px; */
+    
+  /* } */
+
+
+  .gallery-main{
+    background-image: url('images/mainheading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+.gallery-head{
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 40px;
+    text-align: start;
+    margin-left: 50px;
+    height: 50px;
+    margin-top: 80px;
+}
+.gallery-head a{
+  color: rgba(255, 255, 255, 0.783);
+  font-size: 40px;
+  text-align: start;
+  text-decoration: none;
+  margin-top: 50px;
+  
+}
+  .box {
+    background-size: contain;
+    background-position:center;
+    background-image: url('images/eerr.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* position: relative; */
+    /* /* overflow: hidden; */
+    transition: transform 0.3s;
+    margin-top: 30px;
+    padding: 120px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 0px;
+   
+  }
+   
+  /* .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 0px 17px 10px rgba(0,0,0,0.17);
+  }
+  
+ 
+   */
+   .box {
+    position: relative;
+  }
+  .icon .eye-icon {
+    color: white;
+    font-size: 28px;
+  }
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66); /* Adjust transparency as needed */
+    opacity: 0; /* Initially transparent */
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box:hover .hover-overlay {
+    opacity: 1; /* Fully opaque on hover */
+  }
+  
+  .hover-overlay a {
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Adjust icon size as needed */
+  }
+  
+  .hover-overlay a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+  }
+  .gallerypara{
+    text-align: center;
+    padding-top: 20px;
+  color: #525252;
+  
+  }
+  
+  
+  .opg a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    text-decoration: solid;
+  }
+ 
+  .container-boxes{
+    margin-top: 60px;
+    overflow: hidden;
+  
+  }
+  
+  .er{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/gallery-img01.jpg');;
+    background-size: cover;
+  }
+  .pu{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img02.jpg');
+    overflow: hidden;
+    background-size: cover;
+  }
+  .lu{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img03.jpg');
+    background-size: cover;
+  }
+  .sp{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .iof{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img05.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ol{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img06.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .six{
+      background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img10.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .seven{
+    background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eight{
+  background-image: url('https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/08/gallery-img12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  h4 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-right: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 24px;
+      margin-right: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h4 {
+      font-size: 20px;
+      margin-right: 70px;
+      text-align: left;
+      padding-right: 30px;
+    }
+  }
+  .opg{
+      text-align: center;
+      color: #010101;
+      text-decoration: none;
+      
+    }
+    .oc a:hover{
+      text-decoration: underline;
+    }
+    .os a{
+      color: #000000;
+      text-decoration: none;
+    
+    }
+    .hav{
+      position: fixed;
+      z-index: 2;
+      width: 100%;
+      top: 0;
+      right:0 ;
+      left: 0;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.68);
+        color: rgb(255, 255, 255);
+       
+    }
+    @media (max-width: 768px) {
+      .hav{
+        position:relative;
+        z-index: 0;
+         width: 410px; 
+         z-index: 1;
+         color: #0000009b;
+        
+         top: 0;
+         right:0 ;
+         left: 0;
+      }
+    }
+    .hav-link{
+        font-size: 15px;
+        /* text-decoration: underline; */
+        margin-right: 30px;
+    }
+    .navbar-hav{
+        margin: auto;
+        /* margin-left: 70px; */
+    
+    }
+    @media (max-width: 576px) {
+        .hav{
+          position:relative;
+          z-index: 0;
+           width: 100%; 
+        }
+    }

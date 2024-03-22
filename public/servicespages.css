@@ -1,0 +1,204 @@
+/* body{min-width: 430px;} */
+/* Navigation styles */
+.nav {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.566);
+  color: rgb(255, 255, 255);
+  background-size: cover;
+}
+.nav-item{
+  /* text-decoration: underline; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  
+  /* left: 15px; */
+  margin-left: 20px;
+  background-size: contain;
+}
+.logo-container img{
+  /* width: 70px; */
+  /* height: 70px; */
+  width: 70px;
+height: 70px;
+}
+.nav-
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  font-size: 15px;
+  margin-right: 30px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+/* Logo image styles */
+.logoimg {
+  margin-left: 60px;
+  background-size: contain;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+  .nav {
+      position: relative;
+      width: 100%;
+  }
+
+  .nav-link {
+      color: #0000009b; /* Adjusted color for better visibility */
+  }
+  .main-had{
+    display: none;
+  }
+  }
+  
+
+@media (max-width: 768px) {
+  /* Styles for tablets and larger */
+  .nav {
+      width: 100%; /* Adjusted width for full width */
+  }
+
+  .container img {
+      width: 100%;
+  }
+
+  .input-container input[type="text"] {
+      width: 90%;
+  }
+}
+
+/* Additional responsiveness */
+@media only screen and (min-width: 758px) {
+  .input-container input[type="text"] {
+      max-width: 400px; /* Adjust as needed for laptops */
+  }
+
+  .footer-main {
+      width: 100%;
+  }
+  
+}
+
+.responsive-para {
+  width: 100%;
+}
+
+.footer-main {
+  width: 100%;
+}
+
+.back-img{
+    /* background-image: url('images/snazzy-image.png'); */
+    /* background-size: ; */
+    /* background-repeat: no-repeat; */
+}
+input {
+    padding: 10px;
+   margin: 5px;
+   width: 100px;
+   
+    border: none;
+    border-radius: 4px;
+    background-color: #cfcfcf;
+    color: #000000; 
+    /* width: 100%; */
+    box-sizing: border-box;
+    overflow: hidden;
+   
+    
+
+}
+ /* @media only screen and (min-width: 600px) { */
+    /* input { */
+      /* max-width: 400px;  */
+    /* } */
+  /* }  */
+  /* @media only screen and (min-width: 1024px) {
+    .input {
+      max-width: 800px; /* Adjust as needed for larger screens */
+    /* } */
+  /* }  */
+
+
+.contact-main{
+    background-image: url('images/mainheading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+.contact-head{
+    color: rgba(255, 255, 255, 0.783);
+    font-size: 40px;
+    text-align: start;
+    /* margin-left: 50px; */
+    /* height: 50px; */
+    margin-top: 80px;
+}
+.contact-head a{
+  color: rgba(255, 255, 255, 0.783);
+  font-size: 40px;
+  text-align: start;
+  text-decoration: none;
+  margin-top: 50px;
+  
+}
+
+
+
+
+
+
+.input-container {
+    text-align: center;
+  }
+  
+  .input-container input[type="text"] {
+    width: 90%;
+    /* padding: 10px; */
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (min-width: 758px) {
+    .input-container input[type="text"] {
+      max-width: 400px; /* Adjust as needed for laptop */
+    }
+    .footer-main{
+      width: 100%;
+    }
+  }
+   
+ .responsive-para{
+   width: 100%;
+ }
+ .footer-main{
+  width: 100%;
+ }
+ .container div{
+padding-bottom: 20px;
+ }
+ .logo-container img{
+  /* width: 70px; */
+  /* height: 70px; */
+  width: 70px;
+height: 70px;
+}
